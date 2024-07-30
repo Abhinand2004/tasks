@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    
+}
+
+.fullimg{
+    width: 100%;
+    height: 140vh;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    
+}
+.baground{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+nav{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+    
+}.top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 0;
+    position: absolute;
+
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.p1, .p2, .p3 {
+    margin: 0; 
+}.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+.p2{
+    font-weight: 800;
+    font-size: 80px;
+}.P3{
+    font-size: x-large;
+}
+
+
+.lvl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.lv22{
+    display: flex;
+    gap: 30px;
+    color: white;
+}.l21{
+    color: white;
+    font-size: xx-large;
+}span{
+    font-weight: 700;
+}
+
+.lvl3{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-inline: 60px;
+    
+    
+}
+.im1{
+    background-color: black;
+    background-image: url(p1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.im2{
+    background-color: black;
+    background-image: url(p2.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}.im3{
+    background-color: black;
+    background-image: url(p3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.o{
+    flex: 1;
+}
+
+.lvl4{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}.head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}.no3{
+    display: flex;
+    color: white;
+    padding-left: 50%;
+}

@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fullimg {
+    width: 100%;
+    height: 800px;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added to ensure fullimg can be positioned correctly */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center nav items horizontally */
+    width: 100%; /* Ensure nav spans full width */
+}
+
+.top {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center nav items horizontally */
+    align-items: center; /* Center nav items vertically */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Ensure full width */
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds background for better visibility */
+    text-align: center;
+}
+
+.fullimg .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fullimg{
+    width: 100%;
+    height: 800px;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+    
+}.top{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    
+}
+
+
+.fullimg .main{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
