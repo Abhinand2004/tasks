@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    height: 50vh;
+    width: 50vw;
+    background-color: black;
+    display: grid;
+    
+    border: 1px solid black;
+    grid-template-columns:2fr 2fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    
+    
+}.item{
+    
+    border-radius: 8px;
+    background-color: rgba(86, 86, 86, 0.5);
+}.item:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+}
+.item:nth-child(3){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}.item:nth-child(9){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}.item:nth-child(8){
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+    background-color: black;
+    
+}.one{
+    flex: 1;
+    border: 1px solid rgba(86, 86, 86, 0.5);
+    border-radius: 8px;
+    background-color: rgba(86, 86, 86, 0.5);
+    
+}.item:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+}.item:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+}.item:nth-child(4){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+}.item:nth-child(6){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+}.o1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+}.item:nth-child(7){
+    font-size: xx-small;
+    color: white;
+}p{
+    font-size: xx-small;
+    color: white;
+}.inside{
+   
+    font-size: xx-small;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.circle{
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border-radius: 50%;
+}
